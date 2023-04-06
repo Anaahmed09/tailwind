@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-blue {
+  @apply rounded-full bg-blue-500 text-white px-7 py-1 hover:bg-pink-500;
+}
+.main-size-text {
+  @apply text-7xl font-extrabold text-indigo-950;
+}
+.mainSection {
+  @apply flex justify-between items-center lg:px-64 my-10 lg:gap-x-32 max-lg:flex-col max-lg:px-14 max-lg:text-center max-lg:gap-y-8;
+}
+.navbarList {
+  @apply mr-10 font-extrabold hover:text-pink-500 max-lg:block;
+}
+.main-big-text {
+  @apply text-5xl font-extrabold text-indigo-950 max-lg:text-5xl max-sm:text-2xl;
+}
+.btn-pink {
+  @apply rounded-full bg-pink-500 hover:bg-blue-500 text-white px-5 py-2 font-extrabold;
+}
